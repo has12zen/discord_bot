@@ -1,0 +1,28 @@
+{
+    "name": "discord_bot",
+    "version": "1.0.0",
+    "description": "Simple Discord Bot",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node app.js",
+        "dev": "nodemon app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/has12zen/discord_bot.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/has12zen/discord_bot/issues"
+    },
+    "homepage": "https://github.com/has12zen/discord_bot#readme",
+    "dependencies": {
+        "discord.js": "^12.5.3",
+        "dotenv": "^9.0.2",
+        "mongoose": "^5.12.9",
+        "nodemon": "^2.0.7"
+    }
+}
